@@ -1,12 +1,12 @@
 To run the app on Android:
-npm install
-npx react-native run-android
+1. npm install
+2. npx react-native run-android
 
 To run the app on iOS
-npm install
-cd ios
-pod install
-npx react-native run-ios
+1. npm install
+2. cd ios
+3. pod install
+4. npx react-native run-ios
 
 1. redux-toolkit is used as the middleware
 2. redux-persist is used to keep the data stored when coming back to the app. (Used AsyncStorage at the back for the same)
